@@ -1,0 +1,38 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "Test Node server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "server": "nodemon index.js ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "run-p server start"
+  },
+  "author": "IHF",
+  "license": "ISC",
+  "proxy": "http://localhost:4000",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "handlebars": "^4.5.3",
+    "nextjs": "0.0.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-scripts": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.41.2",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-livereload-plugin": "^2.2.0"
+  }
+}
