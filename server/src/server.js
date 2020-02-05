@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 app.use("/testAPI", testAPIRouter);
 
 
-app.listen(4000, () => {
+app.listen(80, () => {
   console.log('Listening');
 });
 
